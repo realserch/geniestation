@@ -25,7 +25,9 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2.5 mb-3">
               <Logo className="w-7 h-7 text-accent" />
-              <span className="font-bold text-lg text-text tracking-tight">GenieStation</span>
+              <span className="font-bold text-lg text-text tracking-tight">
+                GenieStation
+              </span>
             </Link>
             <p className="text-sm text-text-secondary leading-relaxed">
               Elektro Umbaukits für Simson Mopeds.
@@ -33,11 +35,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3.5">Navigation</h4>
+            <h4 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3.5">
+              Navigation
+            </h4>
             <ul className="space-y-2">
               {NAV_LINKS.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-sm text-text-secondary hover:text-text transition-colors">
+                  <Link
+                    href={link.href}
+                    className="text-sm text-text-secondary hover:text-text transition-colors"
+                  >
                     {link.label}
                   </Link>
                 </li>
@@ -46,11 +53,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3.5">Rechtliches</h4>
+            <h4 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3.5">
+              Rechtliches
+            </h4>
             <ul className="space-y-2">
               {LEGAL_LINKS.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-sm text-text-secondary hover:text-text transition-colors">
+                  <Link
+                    href={link.href}
+                    className="text-sm text-text-secondary hover:text-text transition-colors"
+                  >
                     {link.label}
                   </Link>
                 </li>
@@ -59,20 +71,33 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3.5">Social</h4>
+            <h4 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3.5">
+              Social
+            </h4>
             <div className="flex gap-2 mb-3">
-              <a href="https://www.youtube.com/@geniestation" target="_blank" rel="noopener noreferrer"
+              <a
+                href="https://www.youtube.com/@geniestation"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-text-secondary hover:text-accent hover:border-accent/25 transition-all"
-                aria-label="YouTube">
+                aria-label="YouTube"
+              >
                 <IconYoutube className="w-4 h-4" />
               </a>
-              <a href="https://www.instagram.com/geniestation/" target="_blank" rel="noopener noreferrer"
+              <a
+                href="https://www.instagram.com/geniestation_/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-text-secondary hover:text-accent hover:border-accent/25 transition-all"
-                aria-label="Instagram">
+                aria-label="Instagram"
+              >
                 <IconInstagram className="w-4 h-4" />
               </a>
             </div>
-            <a href="mailto:info@geniestation.com" className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-accent transition-colors">
+            <a
+              href="mailto:info@geniestation.com"
+              className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-accent transition-colors"
+            >
               <IconMail className="w-3.5 h-3.5" />
               info@geniestation.com
             </a>

@@ -13,11 +13,11 @@ export default function Community() {
           <div className="text-center mb-14">
             <p className="section-label">Community</p>
             <h2 className="section-heading mb-3">
-              Gemeinsam{" "}
-              <span className="text-accent italic">elektrisch</span>
+              Gemeinsam <span className="text-accent italic">elektrisch</span>
             </h2>
             <p className="section-subheading mx-auto text-center">
-              Werde Teil der GenieStation-Community. Triff Gleichgesinnte auf Events und teile deine Umbau-Erfahrung.
+              Werde Teil der GenieStation-Community. Triff Gleichgesinnte auf
+              Events und teile deine Umbau-Erfahrung.
             </p>
           </div>
         </ScrollReveal>
@@ -52,7 +52,7 @@ export default function Community() {
               <IconExternal className="w-3 h-3 text-text-muted" />
             </a>
             <a
-              href="https://www.instagram.com/geniestation/"
+              href="https://www.instagram.com/geniestation_/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-ghost"
