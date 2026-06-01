@@ -96,7 +96,7 @@ export default function Navbar() {
           }}
         >
           <Logo className="w-8 h-8" />
-          <span className="hidden sm:inline">GenieStation</span>
+          <span>GenieStation</span>
         </Link>
 
         {/* Desktop nav — hidden below lg */}
