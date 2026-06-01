@@ -33,9 +33,8 @@ export default function InformationenPage() {
             {/* Downloads */}
             <div className="grid sm:grid-cols-2 gap-4 mb-20">
               <a
-                href="https://www.geniestation.com/gs60-infoblatt.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/downloads/gs60-infoblatt.pdf"
+                download
                 className="card p-8 flex items-center gap-5 group"
               >
                 <div className="w-14 h-14 rounded-2xl bg-accent-subtle flex items-center justify-center text-accent">
@@ -50,9 +49,8 @@ export default function InformationenPage() {
                 </div>
               </a>
               <a
-                href="https://www.geniestation.com/informationsblatt-sr1.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/downloads/informationsblatt-sr1.pdf"
+                download
                 className="card p-8 flex items-center gap-5 group"
               >
                 <div className="w-14 h-14 rounded-2xl bg-success-subtle flex items-center justify-center text-success">
